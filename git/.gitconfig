@@ -1,0 +1,36 @@
+[user]
+	name = gl_epka
+  email = nechaevgleb@inbox.ru
+
+[core]
+  editor = nvim
+  pager = less
+
+[alias]
+  st = status
+  co = checkout
+  ci = commit
+  br = branch
+  lg = log --oneline --decorate --graph --all
+
+[merge]
+  tool = vimdiff
+
+[push]
+  default = simple
+
+[color]
+  ui = auto
+
+[diff]
+  tool = vimdiff
+
+[init]
+  defaultBranch = main
+
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+  required = true
+
