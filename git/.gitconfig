@@ -1,5 +1,5 @@
 [user]
-	name = gl_epka
+  name = gl_epka
   email = nechaevgleb@inbox.ru
 
 [core]
@@ -29,8 +29,8 @@
   defaultBranch = main
 
 [filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process
   required = true
 
