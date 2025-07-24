@@ -1,8 +1,9 @@
 [window]
 decorations = "Buttonless"
-opacity = 0.7
+opacity = 0.55
 blur = true
 padding = { x = 10, y = 10 }
 
 [font]
-normal = { family: "JetBrainsMonoNerdFont", style: "Regular"}
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+
