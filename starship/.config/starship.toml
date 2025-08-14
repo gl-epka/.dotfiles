@@ -128,8 +128,6 @@ gray='#828997'
 white ='#abb2bf'
 black='#2c323c'
 
-
-
 [palettes.gruvbox_dark]
 bg = '#fbf1c7'
 red = '#cc241d'
